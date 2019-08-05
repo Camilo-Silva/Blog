@@ -1,33 +1,11 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: 'Consolas', 'Courier New', Courier, monospace;
+  background-color:rgb(231, 222, 199);
+  color: rgb(93, 66, 50);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.temp-body {
+  padding:15px 15px 2500px;
+  font-size:30px
 }
