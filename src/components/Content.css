@@ -1,0 +1,10 @@
+.content-container {
+  height: 100%;
+  overflow: auto;
+}
+
+.content-container .content-posts {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 200px;
+}

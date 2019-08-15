@@ -1,0 +1,92 @@
+.menu-container {
+  font-family: "Noto Sans", serif;
+  background-color: rgb(52, 61, 70);
+  color: #f5f5f5;
+  height: 100%;
+  width: 320px;
+  float: left;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: #f5f5f5;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.menu-container a:hover {
+  color: #65737e;
+}
+
+.menu-container .menu-header {
+  height: 30%;
+}
+
+.menu-container .menu-header a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.menu-container .menu-header a img {
+  margin-left: 1em;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.menu-container .menu-header a h1 {
+  display: block;
+  padding: 20px 0;
+}
+
+.menu-container .menu-body {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 40%;
+  padding-left: 1.2em;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.menu-container .menu-body ul {
+  list-style-type: none;
+  justify-content: left;
+}
+
+.menu-container .menu-body ul li a {
+  line-height: 1.3em;
+  /* -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out; */
+}
+
+.menu-container .menu-body ul li a:hover {
+  width: 100px;
+}
+
+.menu-container .menu-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 30%;
+}
+
+.menu-container .menu-footer .social {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+
+.menu-container .menu-footer .social a {
+  font-size: 2.2em;
+  height: 2.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-container .menu-avatar {
+  border: 2px solid #f1f1f1;
+  border-radius: 50%;
+}
