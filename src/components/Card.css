@@ -1,68 +1,7 @@
 .card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
+  grid-template-areas: "menu content";
   background-color: #fff;
-  color: #343d46;
-  font-size: 1.1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2em 0;
-  width: 828px;
-}
-
-.card-container .card-clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.card-container .card-image {
-  height: 100%;
-}
-
-.card-container .card-image img {
-  height: auto;
-  max-height: 550px;
-}
-
-.card-container .card-content {
-  padding: 0.3em 3em;
-}
-
-.card-container .card-header {
-  border-bottom: 1px solid #a7adba;
-}
-
-.card-container .card-header h1 {
-  text-align: center;
-  padding: 0.8em 0;
-}
-
-.card-container .card-header h5 {
-  font-size: 1em;
-  text-align: right;
-  color: #4f5b66;
-}
-
-.card-container .card-body p {
-  text-align: justify;
-  line-height: 1.5em;
-  word-spacing: 0.2em;
-  font-size: 1.05em;
-  color: black;
-  padding: 1em 0;
-}
-
-.card-container .card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1.2em;
-}
-
-.card-container .card-share {
-  width: 100%;
-  margin: 0;
-  text-align: right;
-  border-top: 1px solid #a7adba;
-  padding: 2em 0em;
 }

@@ -3,8 +3,6 @@
   overflow: auto;
 }
 
-.content-container .content-posts {
-  margin-top: 30px;
-  margin-left: 40px;
-  margin-right: 200px;
+.content-cards {
+  margin: 40px;
 }

@@ -5,14 +5,13 @@ import Card from "./Card";
 
 export default function Content() {
   return (
-    <section className="content-container">
-      <div className="content-posts content-clearfix">
-        <Card />
+    <div className="content-container">
+      <div className="content-cards">
         <Card />
         <Card />
         <Card />
         <Card />
       </div>
-    </section>
+    </div>
   );
 }

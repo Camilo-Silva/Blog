@@ -11,7 +11,9 @@ export default function Main() {
       <nav>
         <Menu />
       </nav>
-      <section />
+      <section>
+        <Content />
+      </section>
     </div>
   );
 }
