@@ -9,25 +9,6 @@
   width: 828px;
 }
 
-.card-container button {
-  border: none;
-  background-color: #4f5b66;
-  color: #fff;
-  padding: 1em;
-  border-color: black;
-  -webkit-transition: background-color 0.4s;
-  transition: background-color 0.4s;
-  cursor: pointer;
-}
-
-.card-container button:hover {
-  background-color: #343d46;
-}
-
-.card-container button:focus {
-  background-color: #343d46;
-}
-
 .card-container .card-clearfix::after {
   content: "";
   clear: both;
