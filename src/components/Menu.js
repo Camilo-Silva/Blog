@@ -11,7 +11,7 @@ export default function Menu() {
             src="https://avatars1.githubusercontent.com/u/16165432?v=4"
             alt="Camilo Dias da Silva"
           />
-          <h1>.blog name goes here</h1>
+          <h1>.blog name</h1>
         </a>
       </div>
       <div className="menu-body">

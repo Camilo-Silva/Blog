@@ -50,3 +50,7 @@ a {
 a:hover {
   color: #65737e;
 }
+
+li {
+  list-style-type: none;
+}
