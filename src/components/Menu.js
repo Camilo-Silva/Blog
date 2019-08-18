@@ -1,26 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Menu.css";
 
 export default function Menu() {
   return (
     <div className="menu-container">
       <div className="menu-header">
-        <a href="http://localhost:3000/">
+        <Link to="/">
           <img
             className="menu-avatar"
             src="https://avatars1.githubusercontent.com/u/16165432?v=4"
             alt="Camilo Dias da Silva"
           />
           <h1>.blog name</h1>
-        </a>
+        </Link>
       </div>
       <div className="menu-body">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">Sobre</a>
+            <Link to="/">Sobre</Link>
           </li>
         </ul>
       </div>

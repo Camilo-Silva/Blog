@@ -1,14 +1,10 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./App.css";
 
-import Main from "./pages/Main";
+import Routes from "./routes";
 
 function App() {
-  return (
-    <Fragment>
-      <Main />
-    </Fragment>
-  );
+  return <Routes />;
 }
 
 export default App;

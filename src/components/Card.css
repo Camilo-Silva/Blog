@@ -6,7 +6,10 @@
   grid-template-areas: "image post";
   background-color: #fff;
   margin-bottom: 20px;
-  border: 1px solid #c0c5ce;
+}
+
+.card-container a {
+  color: #343d46;
 }
 
 .card-image {
