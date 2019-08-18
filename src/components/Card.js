@@ -1,14 +1,17 @@
 import React from "react";
 import "./Card.css";
 
-export default function Card() {
+export default function Card({ image }) {
   return (
     <div className="card-container">
       <div className="card-image">
-        <img
-          src="https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-          alt="Testing"
-        />
+        <img src={image} alt="Testing" />
+        <a href="https://images.pexels.com/photos/1670187/pexels-photo-1670187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+          <div class="card-image-toast">
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
+            <p className="card-image-toast-date">June, 2019. Bla bla bla</p>
+          </div>
+        </a>
       </div>
       <div className="card-content">
         <div className="card-header">
@@ -28,7 +31,7 @@ export default function Card() {
             Read more...
           </button>
         </div>
-        <div className="card-share">Author: Camilo Dias da Silva</div>
+        {/* <div className="card-share">Author: Camilo Dias da Silva</div> */}
       </div>
     </div>
   );

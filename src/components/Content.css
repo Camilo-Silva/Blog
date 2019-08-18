@@ -6,3 +6,9 @@
 .content-cards {
   margin: 40px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .content-cards {
+    margin: 20px 0px;
+  }
+}
