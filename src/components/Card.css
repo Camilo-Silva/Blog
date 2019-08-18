@@ -6,6 +6,7 @@
   grid-template-areas: "image post";
   background-color: #fff;
   margin-bottom: 20px;
+  border: 1px solid #c0c5ce;
 }
 
 .card-image {
@@ -53,9 +54,11 @@
 }
 
 .card-header {
+  font-size: 0.8em;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .card-body {
