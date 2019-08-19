@@ -32,3 +32,15 @@ section {
     grid-area: content;
   }
 }
+
+@media only screen and (max-height: 400px) {
+  .main-wrapper {
+    grid-template-rows: 20vh 80vh;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

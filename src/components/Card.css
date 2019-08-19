@@ -91,3 +91,9 @@
     padding: 0px;
   }
 }
+
+@media only screen and (max-height: 400px) {
+  .card-container {
+    grid-template-rows: 30vh 90vh;
+  }
+}
